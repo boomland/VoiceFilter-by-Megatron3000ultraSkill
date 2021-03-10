@@ -7,3 +7,9 @@ This is Skoltech ML Final Project, devoted to
 + Replicate the resutls of 
 + Analyze if filtered audio samples improve quality for speech recognition
 + Reverse the model so it keeps all but one
+
+### Team Members 
++ Mikhail Filitov 
++ Yaroslav Pudyakov
++ Ildar Gabdrakhmanov
++ Anita Soloveva
