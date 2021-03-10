@@ -4,7 +4,7 @@ This is Skoltech ML Final Project, devoted to
 + Removing speaker's voice from the background noise
 
 ## Tasks
-+ Replicate the resutls of 
++ Replicate the resutls of [VoiceFilter paper](https://arxiv.org/pdf/1810.04826.pdf)
 + Analyze if filtered audio samples improve quality for speech recognition
 + Reverse the model so it keeps all but one
 
