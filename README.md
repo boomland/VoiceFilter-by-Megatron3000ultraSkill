@@ -1,4 +1,4 @@
-# :mega: VoiceFilter by Megatron3:zero::zero::zero:ultraSkill 
+# :mega: VoiceFilter by Megatron3000ultraSkill 
 This is Skoltech ML Final Project, devoted to 
 + Separation of one speaker's voice from noise and other voices 
 + Removing speaker's voice from the background noise
