@@ -8,7 +8,7 @@ This is Skoltech ML Final Project, devoted to
 + Analyze if filtered audio samples improve quality for speech recognition
 + Reverse the model so it keeps all but one
 
-### Launch the model 
+### :rocket: Launch the model 
 #### Requirements
 We tested the code on Python 3.6 with PyTorch 1.0.1. Other packages can be installed by:
   <pre> pip install -r requirements.txt</pre>
