@@ -34,8 +34,12 @@ We got 100,000 train and 1000 test samples.
 
 The model consists of 
 + Speaker Encoder (3-layer LSTM), which produces a speaker embedding from audio samples of the target speaker 
-+ VoiceFilter (we used the variant with 8 convolutional layers, 1 LSTM layer, and 2 fully connected layers, each with ReLU activations except for the last layer, which has a sigmoid ac- tivation). 
++ VoiceFilter (we used the variant with 8 convolutional layers, 1 LSTM layer, and 2 fully connected layers, each with ReLU activations except for the last layer, which has a sigmoid activation). 
 
+To **reimplement** the model run:
+  <pre>python trainer.py -c [config.yaml file] -e [path of embedder pt file] -m [create a name for the model]</pre>
+  
+  
 ### Team Members 
 + Mikhail Filitov 
 + Yaroslav Pudyakov
