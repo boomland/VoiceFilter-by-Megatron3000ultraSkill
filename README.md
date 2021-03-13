@@ -39,6 +39,10 @@ The model consists of
 To **reimplement** the model run:
   <pre>python trainer.py -c [config.yaml file] -e [path of embedder pt file] -m [create a name for the model]</pre>
   
+#### Results
+After 450 steps we got the following results:
+![GitHub Logo](/loss.png)
+
 ### Acknowledgements  
 based on https://github.com/mindslab-ai/voicefilter.
 ### Team Members 
