@@ -11,5 +11,5 @@ This is Skoltech ML Final Project, devoted to
 ### Team Members 
 + Mikhail Filitov 
 + Yaroslav Pudyakov
-+ Ildar Gabdrakhmanov
++ [Ildar Gabdrakhmanov](https://github.com/KotShredinger)
 + Anita Soloveva
