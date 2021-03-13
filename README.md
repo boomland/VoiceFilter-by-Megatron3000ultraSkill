@@ -32,7 +32,7 @@ To **reimplement** the model run:
   <pre>python trainer.py -c [config.yaml file] -e [path of embedder pt file] -m [create a name for the model]</pre>
   
 #### Results
-After 1200 steps we got the following results:
+After 1.2k steps we got the following results:
 ![GitHub Logo](/res.png)
 
 Metrics comparing to **paper results**, where [LibriSpeech dataset](https://www.openslr.org/12) was used:
