@@ -13,7 +13,7 @@ This is Skoltech ML Final Project, devoted to
 We tested the code on Python 3.6 with PyTorch 1.0.1. Other packages can be installed by:
   <pre> pip install -r requirements.txt</pre>
 #### Datasets
-We used [LibriSpeech datasets](http://www.openslr.org/12/) for training: <p>train-clean-100.tar.gz</p>, for testing: <p>dev-clean.tar.gz</p>.
+We used [LibriSpeech datasets](http://www.openslr.org/12/) for training: <p style="color: #731768;">train-clean-100.tar.gz</p>, for testing: <p style="color: #731768;">dev-clean.tar.gz</p>.
 
 ### Team Members 
 + Mikhail Filitov 
