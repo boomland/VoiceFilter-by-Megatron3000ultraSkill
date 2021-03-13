@@ -44,7 +44,10 @@ Metrics comparing to **paper results**, where [LibriSpeech dataset](https://www.
 | Before VoiceFilter | 2.5  | 1.6 |
 | After VoiceFilter  | 12.6 | 4.8 |
 
-[![asciicast](/mixed.mp4)
+
+<video width="320" height="240" controls>
+  <source src="mixed.mp4" type="video/mp4">
+</video>
 
 ### Acknowledgements  
 Based on https://github.com/mindslab-ai/voicefilter.
