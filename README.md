@@ -26,7 +26,11 @@ We used [LibriSpeech datasets](http://www.openslr.org/12/) for training: <code>t
 </pre>
 In <code>config/config.yaml</code> set train and test directories. <br>
 Perform STFT for train and test files before training by:
+  <pre>python generator.py -c [config.yaml file] -d [LibriSpeech directory] -o [output directory]</pre>
+We got 100,000 train and 1000 test samples. 
+#### The Model 
 
+![GitHub Logo](/model.png)
 
 ### Team Members 
 + Mikhail Filitov 
