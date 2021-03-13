@@ -9,6 +9,7 @@ This is Skoltech ML Final Project, devoted to
 + Reverse the model so it keeps all but one
 
 ### :rocket: Launch the model 
+We used **p2s.16xlarge.8** for the following scenario.
 #### Requirements
 We tested the code on Python 3.6 with PyTorch 1.0.1. Other packages can be installed by:
   <pre> pip install -r requirements.txt</pre>
@@ -17,15 +18,14 @@ We used [LibriSpeech datasets](http://www.openslr.org/12/) for training: <code>t
 
 #### Resampling and Normalizing wav files
  <pre> tar -xvzf  train-clean-100.tar.gz <br>
- tar -xvzf  dev-clean.tar.gz
- </pre>
+ tar -xvzf  dev-clean.tar.gz</pre>
  After that we got two LibriSpeech folders. Further one should use only one LibriSpeech folder, where <code>train-clean</code> and <code>dev-clean</code> will be located (make necessary movements).
  <br>
  Copy <code>normalize-resample.sh</code> tgo this LibriSpeech folder and do the following:
   <pre>chmod a+x normalize-resample.sh <br>./normalize-resample.sh
 </pre>
-In <code>config/config.yaml</code> set train and test dir.
-
+In <code>config/config.yaml</code> set train and test directories. <br>
+Perform STFT for train and test files before training by:
 
 
 ### Team Members 
