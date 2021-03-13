@@ -15,6 +15,13 @@ We tested the code on Python 3.6 with PyTorch 1.0.1. Other packages can be insta
 #### Datasets
 We used [LibriSpeech datasets](http://www.openslr.org/12/) for training: <code>train-clean-100.tar.gz</code>, for testing: <code>dev-clean.tar.gz</code>.
 
+#### Resampling and Normalizing wav files
+ <pre> tar -xvzf  train-clean-100.tar.gz <br>
+ tar -xvzf  dev-clean.tar.gz
+ 
+ </pre>
+
+
 ### Team Members 
 + Mikhail Filitov 
 + Yaroslav Pudyakov
