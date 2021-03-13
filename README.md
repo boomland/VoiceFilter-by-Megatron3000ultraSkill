@@ -12,4 +12,4 @@ This is Skoltech ML Final Project, devoted to
 + Mikhail Filitov 
 + Yaroslav Pudyakov
 + [Ildar Gabdrakhmanov](https://github.com/KotShredinger)
-+ Anita Soloveva
++ [Anita Soloveva](https://github.com/aniton)
