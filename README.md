@@ -39,7 +39,8 @@ The model consists of
 To **reimplement** the model run:
   <pre>python trainer.py -c [config.yaml file] -e [path of embedder pt file] -m [create a name for the model]</pre>
   
-  
+### Acknowledgements  
+based on https://github.com/mindslab-ai/voicefilter.
 ### Team Members 
 + Mikhail Filitov 
 + Yaroslav Pudyakov
