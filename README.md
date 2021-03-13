@@ -11,9 +11,9 @@ This is Skoltech ML Final Project, devoted to
 ### Launch the model 
 We tested the code on Python 3.6 with PyTorch 1.0.1. Other packages can be installed by:
 
-<div class="bg-gray">
-  pip install -r requirements.txt
-</div>
+<pre>
+  <p> pip install -r requirements.txt</p>
+</pre>
 
 ### Team Members 
 + Mikhail Filitov 
