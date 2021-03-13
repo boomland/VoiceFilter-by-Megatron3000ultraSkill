@@ -48,7 +48,7 @@ Metrics comparing to **paper results**, where [LibriSpeech dataset](https://www.
 ### Acknowledgements  
 Based on https://github.com/mindslab-ai/voicefilter.
 ### Team Members 
-+ Mikhail Filitov 
++ [Mikhail Filitov](https://github.com/lll-phill-lll)
 + [Yaroslav Pudyakov](https://github.com/boomland)
 + [Ildar Gabdrakhmanov](https://github.com/KotShredinger)
 + [Anita Soloveva](https://github.com/aniton)
