@@ -1,0 +1,10 @@
+tqdm
+numpy
+torch
+pyyaml
+librosa==0.6.0
+mir_eval
+matplotlib
+tensorboardX
+Pillow
+ffmpeg-normalize
