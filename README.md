@@ -41,7 +41,7 @@ To **reimplement** the model run:
   
 #### Results
 After 450 steps we got the following results:
-![GitHub Logo](/loss.png)
+
 
 ### Acknowledgements  
 based on https://github.com/mindslab-ai/voicefilter.
