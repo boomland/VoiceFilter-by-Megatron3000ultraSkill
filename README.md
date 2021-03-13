@@ -31,7 +31,7 @@ The model consists of
 To **reimplement** the model run:
   <pre>python trainer.py -c [config.yaml file] -e [path of embedder pt file] -m [create a name for the model]</pre>
 
-To get **results**  run:
+To get **the results**  run:
 <pre> python res.py -c [config.yaml file] -e [path of embedder pt file] --checkpoint_path [chkpt/name/chkpt_{step}.pt] </pre>
 #### Results
 After 1.2k steps we got the following results:
