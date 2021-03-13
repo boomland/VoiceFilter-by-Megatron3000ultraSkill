@@ -9,8 +9,11 @@ This is Skoltech ML Final Project, devoted to
 + Reverse the model so it keeps all but one
 
 ### Launch the model 
+#### Requirements
 We tested the code on Python 3.6 with PyTorch 1.0.1. Other packages can be installed by:
   <pre> pip install -r requirements.txt</pre>
+#### Datasets
+We used [LibriSpeech datasets](http://www.openslr.org/12/) for training: <pre>train-clean-100.tar.gz</pre>, for testing: <pre>dev-clean.tar.gz</pre>.
 
 ### Team Members 
 + Mikhail Filitov 
