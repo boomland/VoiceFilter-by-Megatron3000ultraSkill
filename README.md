@@ -14,19 +14,11 @@ We used **p2s.16xlarge.8** for the following scenario.
 We tested the code on Python 3.6 with PyTorch 1.0.1. Other packages can be installed by:
   <pre> pip install -r requirements.txt</pre>
 #### Datasets
-We used [LibriSpeech datasets](http://www.openslr.org/12/) for training: <code>train-clean-100.tar.gz</code>, for testing: <code>dev-clean.tar.gz</code>.
+We used [VoxCeleb1 datasets](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html) for training and testing.
 
-#### Resampling and Normalizing wav files
- <pre> tar -xvzf  train-clean-100.tar.gz <br>
- tar -xvzf  dev-clean.tar.gz</pre>
- After that we got two LibriSpeech folders. Further one should use only one LibriSpeech folder, where <code>train-clean</code> and <code>dev-clean</code> will be located (make necessary movements).
- <br>
- Copy <code>normalize-resample.sh</code> tgo this LibriSpeech folder and do the following:
-  <pre>chmod a+x normalize-resample.sh <br>./normalize-resample.sh
-</pre>
-In <code>config/config.yaml</code> set train and test directories. <br>
+#### Data Preparement
 Perform STFT for train and test files before training by:
-  <pre>python generator.py -c [config.yaml file] -d [LibriSpeech directory] -o [output directory]</pre>
+  <pre>python generator.py -c [config.yaml file] -d [VoxCeleb1 directory (should ends with <i>aac</i>)] -o [output directory]</pre>
 We got 100,000 train and 1000 test samples. 
 #### The Model 
 
@@ -40,8 +32,8 @@ To **reimplement** the model run:
   <pre>python trainer.py -c [config.yaml file] -e [path of embedder pt file] -m [create a name for the model]</pre>
   
 #### Results
-After 450 steps we got the following results:
-![GitHub Logo](/train_loss.png)
+After 1200 steps we got the following results:
+![GitHub Logo](/res.png)
 
 ### Acknowledgements  
 based on https://github.com/mindslab-ai/voicefilter.
