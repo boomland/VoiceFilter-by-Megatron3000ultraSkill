@@ -35,6 +35,14 @@ To **reimplement** the model run:
 After 1200 steps we got the following results:
 ![GitHub Logo](/res.png)
 
+Metrics comparing to **paper results**, where [LibriSpeech dataset](https://www.openslr.org/12) was used:
+
+| Median SDR(Source to Distortion Ratio)  | Paper | Ours |
+| ------------- | ------------- |------------- |
+| Before VoiceFilter | 2.5  | 1.6 |
+| After VoiceFilter  | 12.6 | 4.8 |
+
+
 ### Acknowledgements  
 based on https://github.com/mindslab-ai/voicefilter.
 ### Team Members 
