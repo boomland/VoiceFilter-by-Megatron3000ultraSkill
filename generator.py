@@ -121,8 +121,8 @@ if __name__ == '__main__':
     elif args.voxceleb_dir is not None:
         all_folders = [x for x in glob.glob(os.path.join(args.voxceleb_dir, '*'))
                             if os.path.isdir(x)]
-        train_folders = all_folders[:-20]
-        test_folders = all_folders[-20:]
+        train_folders = all_folders[:-10]
+        test_folders = all_folders[-10:]
 
     train_spk = [glob.glob(os.path.join(spk, '**', hp.form.input), recursive=True)
                     for spk in train_folders]
