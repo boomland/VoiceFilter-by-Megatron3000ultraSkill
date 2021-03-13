@@ -18,8 +18,16 @@ We used [LibriSpeech datasets](http://www.openslr.org/12/) for training: <code>t
 #### Resampling and Normalizing wav files
  <pre> tar -xvzf  train-clean-100.tar.gz <br>
  tar -xvzf  dev-clean.tar.gz
- 
  </pre>
+ After that we got two LibriSpeech folders. Further one should use only one LibriSpeech folder, where <code>train-clean</code> and <code>dev-clean</code> will be located (make necessary movements).
+ <br>
+ Copy <code>normalize-resample.sh</code> tgo this LibriSpeech folder and do the following:
+  <pre>
+  chmod a+x normalize-resample.sh <br>
+./normalize-resample.sh
+</pre>
+In <code>config/config.yaml</code> set train and test dir.
+
 
 
 ### Team Members 
