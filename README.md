@@ -45,7 +45,7 @@ Metrics comparing to **paper results**, where [LibriSpeech dataset](https://www.
 | After VoiceFilter  | 12.6 | 4.8 |
 
 
-[![Demo CountPages alpha](/mixed.mp4)
+[![Demo CountPages alpha](/mixed.mov)
 
 ### Acknowledgements  
 Based on https://github.com/mindslab-ai/voicefilter.
