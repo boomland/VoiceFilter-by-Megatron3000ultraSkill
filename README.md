@@ -37,6 +37,8 @@ To get **the results**  run:
 After 1.2k steps we got the following results:
 ![GitHub Logo](/res.png)
 
+See the example :small_red_triangle_down: <br> https://aniton.github.io/videos.github.io/
+
 Metrics comparing to **paper results**, where [LibriSpeech dataset](https://www.openslr.org/12) was used:
 
 | Median SDR (Source to Distortion Ratio)  | Paper | Ours |
