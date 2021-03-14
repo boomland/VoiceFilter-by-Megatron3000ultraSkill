@@ -14,7 +14,9 @@ We used **p2s.16xlarge.8** for the following scenario.
 We tested the code on Python 3.6 with PyTorch 1.0.1. Other packages can be installed by:
   <pre> pip install -r requirements.txt</pre>
 #### Datasets
-For training and testing phases we used [VoxCeleb1 datasets](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html), which consist of celebrities utterances, extracted from videos uploaded to YouTube. <br> We selected for training all the utterances from 30 speakers for testing all the utterances from 10 speakers.
++ For Speaker Encoder we used [VoxCeleb2 dataset](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html).
++ For training and testing phases of Voicefilter we used [VoxCeleb1 datasets](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html) <br> We selected for training all the utterances from 30 speakers, for testing all the utterances from 10 speakers.
+Both datasets consist of celebrities utterances, extracted from videos uploaded to YouTube.
 
 #### Data Preparement
 Perform STFT for train and test files before training by:
