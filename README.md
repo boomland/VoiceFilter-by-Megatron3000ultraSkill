@@ -16,6 +16,7 @@ We tested the code on Python 3.6 with PyTorch 1.0.1. Other packages can be insta
 #### Datasets
 + For Speaker Encoder we used [VoxCeleb2 dataset](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html).
 + For training and testing phases of Voicefilter we used [VoxCeleb1 datasets](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html) <br> We selected for training all the utterances from 30 speakers, for testing all the utterances from 10 speakers. <br>
+
 Both datasets consist of celebrities utterances, extracted from videos uploaded to YouTube.
 
 #### Data Preparement
