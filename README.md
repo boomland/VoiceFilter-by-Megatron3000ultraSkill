@@ -22,7 +22,7 @@ Both datasets consist of celebrities utterances, extracted from videos uploaded 
 #### Data Preparement
 Perform STFT for train and test files before training by:
   <pre>python generator.py -c [config.yaml file] -d [VoxCeleb1 directory (should ends with <i>aac</i>)] -o [output directory]</pre>
-We got 100,000 train and 1000 test samples. 
+We got 100,000 train and 1000 test audio samples (each of 3 sec). 
 #### The Model 
 
 ![GitHub Logo](/model.png)
