@@ -40,7 +40,9 @@ To get **the results**  run:
 After 1.2k steps we got the following results:
 ![GitHub Logo](/res.png)
 
-**See an example** :small_red_triangle_down: <br> https://aniton.github.io/videos.github.io/
+**See an example** :small_red_triangle_down: <br> https://aniton.github.io/videos.github.io/ <br>
+Cut vesion of resulted samples: :small_red_triangle_down: <br> https://drive.google.com/file/d/1rEqKNUC7ZBb4MIJ5hgqrgYI_Ir6WRyyw/view?usp=sharing 
+
 
 Metrics comparing to **paper results**, where [LibriSpeech dataset](https://www.openslr.org/12) was used:
 
