@@ -58,7 +58,7 @@ The main difference was in **inputs**:
 + as Reference Audio and Clean Audio we used background noise
 + as Noisy Audio we used background noise with target speaker voice
 
-For this purpose, we made use of [VOICES](https://iqtlabs.github.io/voices/Lab41-SRI-VOiCES_README/) dataset.
+For this purpose, we made use of [VOICES](https://iqtlabs.github.io/voices/Lab41-SRI-VOiCES_README/) dataset, which contains audio samples of clean speech from [Librispeech dataset](https://www.openslr.org/12) played with different background noise.
 
 We generated spectrograms for target and mixed audio samples by:
 
