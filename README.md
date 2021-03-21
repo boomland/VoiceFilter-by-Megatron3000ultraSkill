@@ -52,6 +52,24 @@ Metrics comparing to **paper results**, where [LibriSpeech dataset](https://www.
 | After VoiceFilter  | 12.6 | 4.8 |
 
 
+### :left_right_arrow: Reverse Task
+For the task of keeping background noise and voices, but removing the target speaker voice we used the same system (Speech Embedder + Voicefilter).
+The main difference was in **inputs**:
++ as Reference Audio and Clean Audio we used background noise
++ as Noisy Audio we used background noise with target speaker voice
+
+For this purpose, we made use of [VOICES](https://iqtlabs.github.io/voices/Lab41-SRI-VOiCES_README/) dataset.
+
+We generated spectrograms for target and mixed audio samples by:
+
+
+Then we trained the model in the same maner as in the first task.
+#### Results
+| Median SDR (Source to Distortion Ratio)  | Ours |
+| ------------- |------------- |
+| Before VoiceFilter |  |
+| After VoiceFilter  | |
+
 
 ### Acknowledgements  
 Based on https://github.com/mindslab-ai/voicefilter and https://github.com/HarryVolek/PyTorch_Speaker_Verification.
