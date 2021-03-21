@@ -4,9 +4,9 @@ This is Skoltech ML Final Project, devoted to
 + Removing speaker's voice from the background noise
 
 ### Tasks
-+ Replicate the resutls of [VoiceFilter paper](https://arxiv.org/pdf/1810.04826.pdf)
-+ Analyze if filtered audio samples improve quality for speech recognition
-+ Reverse the model so it keeps all but one
++ Replicate the resutls of [VoiceFilter paper](https://arxiv.org/pdf/1810.04826.pdf) :heavy_check_mark:
++ Analyze if filtered audio samples improve quality for downstream tasks :heavy_check_mark:
++ Reverse the model so it keeps all but one :heavy_check_mark:
 
 ### :rocket: Launch the model 
 We used **p2s.16xlarge.8** for the following scenario.
