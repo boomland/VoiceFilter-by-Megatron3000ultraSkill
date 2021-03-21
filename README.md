@@ -54,7 +54,7 @@ Metrics comparing to **paper results**, where [LibriSpeech dataset](https://www.
 
 
 ### Acknowledgements  
-Based on https://github.com/mindslab-ai/voicefilter.
+Based on https://github.com/mindslab-ai/voicefilter and https://github.com/HarryVolek/PyTorch_Speaker_Verification.
 ### Team Members 
 + [Mikhail Filitov](https://github.com/lll-phill-lll)
 + [Yaroslav Pudyakov](https://github.com/boomland)
