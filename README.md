@@ -71,6 +71,10 @@ After 2k steps:
 | Before VoiceFilter |  1.8 |
 | After VoiceFilter  | 5.9 |
 
+**See an example** :small_red_triangle_down: <br> https://aniton.github.io/videos1.github.io/ <br>
+Cut vesion of resulted samples: :small_red_triangle_down: <br> https://drive.google.com/file/d/14xXaB1WuUq9yqIT88L1ldKyh1SIf1tK9/view?usp=sharing
+
+
 
 ### Acknowledgements  
 Based on https://github.com/mindslab-ai/voicefilter and https://github.com/HarryVolek/PyTorch_Speaker_Verification.
