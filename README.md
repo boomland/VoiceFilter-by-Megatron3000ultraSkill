@@ -62,6 +62,8 @@ For this purpose, we made use of [VOICES](https://iqtlabs.github.io/voices/Lab41
 
 We generated spectrograms for target and mixed audio samples by:
 
+To **reimplement** the model run:
+  <pre>временная заглушка</pre>
 
 Then we trained the model in the same maner as in the first task.
 #### Results
