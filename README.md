@@ -65,10 +65,11 @@ We generated spectrograms for target and mixed audio samples by:
 
 Then we trained the model in the same maner as in the first task.
 #### Results
+After 2k steps: 
 | Median SDR (Source to Distortion Ratio)  | Ours |
 | ------------- |------------- |
-| Before VoiceFilter |  |
-| After VoiceFilter  | |
+| Before VoiceFilter |  1.8 |
+| After VoiceFilter  | 5.9 |
 
 
 ### Acknowledgements  
