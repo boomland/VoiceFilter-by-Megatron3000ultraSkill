@@ -1,6 +1,6 @@
-# :mega: VoiceFilter by Megatron3000ultraSkill 
-This is Skoltech ML Final Project, devoted to 
-+ Separation of one speaker's voice from noise and other voices 
+# :mega: VoiceFilter by Megatron3000ultraSkill
+This is Skoltech ML Final Project, devoted to
++ Separation of one speaker's voice from noise and other voices
 + Removing speaker's voice from the background noise
 
 ### Tasks
@@ -8,7 +8,7 @@ This is Skoltech ML Final Project, devoted to
 + Analyze if filtered audio samples improve quality for downstream tasks :heavy_check_mark:
 + Reverse the model so it keeps all but one :heavy_check_mark:
 
-### :rocket: Launch the model 
+### :rocket: Launch the model
 We used **p2s.16xlarge.8** for the following scenario.
 #### Requirements
 We tested the code on Python 3.6 with PyTorch 1.0.1. Other packages can be installed by:
@@ -22,26 +22,27 @@ Both datasets consist of celebrities utterances, extracted from videos uploaded 
 #### Data Preparement
 Perform STFT for train and test files before training by:
   <pre>python generator.py -c [config.yaml file] -d [VoxCeleb1 directory (should ends with <i>aac</i>)] -o [output directory]</pre>
-We got 100,000 train and 1000 test audio samples (each of 3 sec). 
-#### The Model 
+We got 100,000 train and 1000 test audio samples (each of 3 sec).
+#### The Model
 
 ![GitHub Logo](/model.png)
 
-The model consists of 
-+ Speaker Encoder (3-layer LSTM), which produces a speaker embedding from audio samples of the target speaker 
-+ VoiceFilter (we used the variant with 8 convolutional layers, 1 LSTM layer, and 2 fully connected layers, each with ReLU activations except for the last layer, which has a sigmoid activation). 
+The model consists of
++ Speaker Encoder (3-layer LSTM), which produces a speaker embedding from audio samples of the target speaker
++ VoiceFilter (we used the variant with 8 convolutional layers, 1 LSTM layer, and 2 fully connected layers, each with ReLU activations except for the last layer, which has a sigmoid activation).
 
 To **reimplement** the model run:
   <pre>python trainer.py -c [config.yaml file] -e [path of embedder pt file] -m [create a name for the model]</pre>
 
 To get **the results**  run:
 <pre> python res.py -c [config.yaml file] -e [path of embedder pt file] --checkpoint_path [chkpt/name/chkpt_{step}.pt] </pre>
+
 #### Results
 After 1.2k steps we got the following results:
 ![GitHub Logo](/res.png)
 
 **See an example** :small_red_triangle_down: <br> https://aniton.github.io/videos.github.io/ <br>
-Cut vesion of resulted samples: :small_red_triangle_down: <br> https://drive.google.com/file/d/1rEqKNUC7ZBb4MIJ5hgqrgYI_Ir6WRyyw/view?usp=sharing 
+Cut vesion of resulted samples: :small_red_triangle_down: <br> https://drive.google.com/file/d/1rEqKNUC7ZBb4MIJ5hgqrgYI_Ir6WRyyw/view?usp=sharing
 
 
 Metrics comparing to **paper results**, where [LibriSpeech dataset](https://www.openslr.org/12) was used:
@@ -65,7 +66,7 @@ We generated spectrograms for target and mixed audio samples by:
 
 Then we trained the model in the same maner as in the first task.
 #### Results
-After 2k steps: 
+After 2k steps:
 | Median SDR (Source to Distortion Ratio)  | Ours |
 | ------------- |------------- |
 | Before VoiceFilter |  1.8 |
@@ -74,11 +75,13 @@ After 2k steps:
 **See an example** :small_red_triangle_down: <br> https://aniton.github.io/videos1.github.io/ <br>
 Cut vesion of resulted samples: :small_red_triangle_down: <br> https://drive.google.com/file/d/14xXaB1WuUq9yqIT88L1ldKyh1SIf1tK9/view?usp=sharing
 
+### Downstream tasks
+Go to folder downstream_tasks and follow the README file there.
 
 
-### Acknowledgements  
+### Acknowledgements
 Based on https://github.com/mindslab-ai/voicefilter and https://github.com/HarryVolek/PyTorch_Speaker_Verification.
-### Team Members 
+### Team Members
 + [Mikhail Filitov](https://github.com/lll-phill-lll)
 + [Yaroslav Pudyakov](https://github.com/boomland)
 + [Ildar Gabdrakhmanov](https://github.com/KotShredinger)
