@@ -52,6 +52,8 @@ Metrics comparing to **paper results**, where [LibriSpeech dataset](https://www.
 | Before VoiceFilter | 2.5  | 1.6 |
 | After VoiceFilter  | 12.6 | 4.8 |
 
+### Downstream tasks
+Go to folder downstream_tasks and follow the README file there.
 
 ### :left_right_arrow: Reverse Task
 For the task of keeping background noise and voices, but removing the target speaker voice we used the same system (Speech Embedder + Voicefilter).
@@ -74,9 +76,6 @@ After 2k steps:
 
 **See an example** :small_red_triangle_down: <br> https://aniton.github.io/videos1.github.io/ <br>
 Cut vesion of resulted samples: :small_red_triangle_down: <br> https://drive.google.com/file/d/14xXaB1WuUq9yqIT88L1ldKyh1SIf1tK9/view?usp=sharing
-
-### Downstream tasks
-Go to folder downstream_tasks and follow the README file there.
 
 
 ### Acknowledgements
