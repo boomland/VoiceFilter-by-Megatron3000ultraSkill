@@ -10,7 +10,8 @@ import numpy as np
 
 import delegator
 
-dirname = 'data'
+dirname = 'data_named'
+files_limit = 10
 
 def get_new(x, y):
     z = np.polyfit(x, y, 6)
@@ -18,7 +19,7 @@ def get_new(x, y):
     y = f(x)
     return x, y
 
-def correct_format(pattern, limit=30):
+def correct_format(pattern, limit=files_limit):
     num = 1
     for filename in sorted(glob.glob(pattern)):
         if num > limit:
@@ -30,7 +31,7 @@ def correct_format(pattern, limit=30):
         num += 1
 
 
-def run_predictions(pattern, limit=30):
+def run_predictions(pattern, limit=files_limit):
     model_file_path = 'deepspeech-0.9.3-models.pbmm'
     scorer_file_path = 'deepspeech-0.9.3-models.scorer'
     audiorate = '16000'
