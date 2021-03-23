@@ -5,7 +5,7 @@ This is Skoltech ML Final Project, devoted to
 
 ### Tasks
 + Replicate the resutls of [VoiceFilter paper](https://arxiv.org/pdf/1810.04826.pdf) :heavy_check_mark:
-+ Analyze if filtered audio samples improve quality for downstream tasks :heavy_check_mark: [here](https://github.com/aniton/VoiceFilter-by-Megatron3000ultraSkill/tree/main/downstream_tasks)
++ Analyze if filtered audio samples improve quality for downstream tasks, such as Speech-toText and Voice Gender Detection :heavy_check_mark: [here](https://github.com/aniton/VoiceFilter-by-Megatron3000ultraSkill/tree/main/downstream_tasks)
 + Reverse the model so it keeps all but one :heavy_check_mark:
 
 ### :rocket: Launch the model
